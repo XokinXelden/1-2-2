@@ -1,0 +1,30 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.marketBlock {
+  width: 740px;
+  height: auto;
+  padding: 0 10px;
+  border: 1px solid black;
+}
+.marketBlock_head {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  border-bottom: 1px solid;
+}
+
+.market_carElement {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  grid-column-gap: 15px;
+}
+
+.colorSelector {
+  height: 30px;
+}
