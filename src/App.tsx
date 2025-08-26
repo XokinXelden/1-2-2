@@ -1,7 +1,7 @@
 import './App.css';
 import { carsList } from './cars.const';
-import { MarketBlock } from './components/MarketBlock';
-import MarketElemetsCreater from './components/MarketBlock-elemetnCreate';
+import { MarketBlock } from './components/marketBlockHeader';
+import MarketElemetsCreater from './components/marketBlockElemetnCreate';
 
 function App() {
   console.log(carsList);

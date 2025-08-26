@@ -6,11 +6,12 @@
 }
 
 .marketBlock {
-  width: 740px;
+  width: 770px;
   height: auto;
   padding: 0 10px;
   border: 1px solid black;
 }
+
 .marketBlock_head {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -27,4 +28,9 @@
 
 .colorSelector {
   height: 30px;
+}
+
+.btnMarket {
+  font-size: 14px;
+  width: 145px;
 }

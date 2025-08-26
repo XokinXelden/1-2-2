@@ -1,9 +1,12 @@
 import { carsList } from '../cars.const.ts';
-import TextSticks from './MarketBlock-Name.tsx';
-import { ButtonReserve } from './MarketBlock-ReserveButtun.tsx';
-import { MarketSelectColor } from './MarketSelectColor.tsx';
+import TextSticks from './marketBlockName.tsx';
+import { ButtonReserve } from './marketBlockReserveButtun.tsx';
+import { MarketSelectColor } from './marketSelectColor.tsx';
 
 const MarketElemetsCreater = () => {
+  if (carsList.length === 0) return (
+    <p>Автомобили не найдены</p>
+  )
   return (
     <>
       {carsList.map(
